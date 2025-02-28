@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
+import aiodl from "../../public/svgl.png";
+import apis from "../../public/stockin.png";
 
 interface Project {
   title: string;
@@ -13,15 +13,15 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "AIO Downloader",
-    image: stockin as ImageMetadata,
+    title: "AIODL",
+    image: aiodl as ImageMetadata,
     link: "https://github.com/jaxzynnice/aiodl",
     preview: "https://aiodl.netlify.app",
     status: "Coming soon",
   },
   {
     title: "Rest APIs",
-    image: svgl as ImageMetadata,
+    image: apis as ImageMetadata,
     link: "https://github.com/jaxzynnice/apis",
     preview: "https://api.fusions.my.id",
     status: "Contributor",
